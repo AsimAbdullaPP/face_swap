@@ -1,6 +1,7 @@
 import onnxruntime
 
 all_faces = None
+selected_face_index = None
 log_level = 'error'
 cpu_cores = None
 gpu_threads = None
